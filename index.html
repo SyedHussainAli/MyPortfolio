@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/d1fb133038.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <!-- class=" bg-no-repeat bg-center bg-cover bg-[url('./Assets/bg.jpg')] " -->
+
+  <body>
+    <!-- IntroductionSectiopn -->
+    <div
+      class="h-96 lg:h-screen bg-gradient-to-t from-indigo-200 to-gray-300 relative overflow-hidden"
+    >
+      <!-- navbar -->
+      <nav class="w-full fixed top-0 bg-gray-300 z-10">
+        <div class="container mx-auto py-5 flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <img class="w-12" src="./Assets/icon.png" alt="" />
+            <span class="tet-2xl font-bold text-grey-800">Hussain Zaidi</span>
+          </div>
+          <ul
+            class="hidden md:flex space-x-10 text-gray-700 font-bold text-sm uppercase"
+          >
+            <li class="hover:text-gray-500"><a href="#">Homepage</a></li>
+            <li class="hover:text-gray-500"><a href="#about">About Me</a></li>
+            <li class="hover:text-gray-500"><a href="#services">Services</a></li>
+            <li class="hover:text-gray-500"><a href="#work">Work</a></li>
+            <li class="hover:text-gray-500"><a href="#contact">Contact</a></li>
+          </ul>
+          <img
+            src="./Assets/dn.png"
+            class="hidden md:block w-8 cursor-pointer"
+            alt=""
+          />
+          <div class="space-y-1 md:hidden cursor-pointer">
+            <div class="w-6 h-0.5 bg-black"></div>
+            <div class="w-6 h-0.5 bg-black"></div>
+            <div class="w-6 h-0.5 bg-black"></div>
+          </div>
+          <ul
+            class="hidden bg-gray-900 absolute left-0 top-0 p-10 w-full text-center rounded-b-3xl space-y-10 text-white uppercase"
+          >
+            <li><a href="#">Homepage</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- circle -->
+      <div
+        class="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto big bg-gray-900 rounded-full"
+      ></div>
+      <!-- image -->
+      <img
+        class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover"
+        src="./Assets/man1.png"
+        alt=""
+      />
+
+      <!-- animated text -->
+      <div
+        class="absolute top-1/3 left-10 font-bold text-2xl md:left-1/5 md:top-1 md:pt-40 md:text-7xl lg:left-32 xl:left-48"
+      >
+        <span class="text-gray-900">WEB</span>
+        <p class="text-gray-600">Developer</p>
+      </div>
+
+      <div
+        class="hidden lg:flex flex-col gap-6 shadow-lg absolute top-0 bottom-0 m-auto right-10 bg-white h-fit w-1/3 rounded-3xl p-10"
+      >
+        <h1 class="text-3xl font-bold text-gray-900">Hi, I am Hussain Zaidi</h1>
+        <p class="text-gray-500">
+          Working in a dynamic organization helps me to acquire new experiences
+          which makes my skills polished and also helps me to acquire other
+          skills. I am very eager and dedicated to learn new things and also
+          adapt to new environments. Solving real life problems with the help of
+          programming and other technology is the thing which I really enjoy
+        </p>
+        <a
+          class="bg-gray-600 text-white tet-xl px-3 py-2 rounded-md font-semibold w-fit"
+          href="#Contact"
+          >Hire me</a
+        >
+      </div>
+    </div>
+
+    <!-- about Section -->
+    <div class="px-10" id="about">
+      <div
+        class="container mx-auto py-40 flex flex-col-reverse md:flex-row items-center gap-20"
+      >
+        <!-- left -->
+        <div class="relative">
+          <img
+            class="h-1/4 absolute top-0 left-0 -z-10"
+            src="./Assets/dotted.jpg"
+            alt=""
+          />
+          <div class="h-full rounded-full overflow-hidden">
+            <img src="./Assets/man2.jpg" alt="" />
+          </div>
+        </div>
+        <!-- right -->
+        <div class="my-auto flex flex-col gap-3 w-full">
+          <h1 class="text-gray-600 font-bold">ABOUT ME</h1>
+          <h1 class="text-3xl font-medium">Awsome Design</h1>
+          <h1 class="text-3xl font-medium">Better Experience</h1>
+          <p class="text-gray-400">
+            As a passionate web developer and designer, I thrive on creating
+            immersive online experiences that captivate and engage users. With a
+            keen eye for detail and a dedication to innovation, I transform
+            ideas into dynamic digital realities, shaping the future of the web,
+            one line of code at a time.
+          </p>
+          <h2 class="text-gray-500 font-medium">HTML</h2>
+          <div class="w-full bg-gray-300 h-1.5 rounded-md">
+            <div class="w-full bg-gray-600 h-1.5 rounded-md"></div>
+          </div>
+
+          <h2 class="text-gray-500 font-medium">CSS</h2>
+          <div class="w-full bg-gray-300 h-1.5 rounded-md">
+            <div class="w-4/5 bg-gray-600 h-1.5 rounded-md"></div>
+          </div>
+
+          <h2 class="text-gray-500 font-medium">TAILWIND CSS</h2>
+          <div class="w-full bg-gray-300 h-1.5 rounded-md">
+            <div class="w-3/5 bg-gray-600 h-1.5 rounded-md"></div>
+          </div>
+
+          <h2 class="text-gray-500 font-medium">JAVASCRIPT</h2>
+          <div class="w-full bg-gray-300 h-1.5 rounded-md">
+            <div class="w-5/6 bg-gray-600 h-1.5 rounded-md"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-40" id="services">
+      <div class="container mx-auto" >
+        <div class="flex flex-col gap-3 items-center">
+          <h1 class="text-gray-600 font-bold">SERVICES</h1>
+          <h1 class="text-3xl font-medium">What do I offer?</h1>
+          <p class="text-gray-400 text-center w-1/2">
+            As a passionate web developer and designer, I thrive on creating
+            immersive online experiences that captivate and engage users. With a
+            keen eye for detail and a dedication to innovation, I transform
+            ideas into dynamic digital realities, shaping the future of the web,
+            one line of code at a time.
+          </p>
+        </div>
+        <!-- bottom -->
+        <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+         <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg my-3 md:my-10  p-5 flex flex-col gap-3"
+          >
+            <img class="w-10" src="./Assets/icon.png" alt="" />
+            <h1 class="font-medium text-lg">UX / UI Design</h1>
+            <p class="text-gray-400">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+              quis?
+            </p>
+            <a class="text-gray-600 font-semibold text-sm" href="#">Read More</a>
+          </div>
+             <!-- card -->
+             <div
+             class="w-full md:w-4/12 shadow-xl rounded-lg my-3 md:my-10  p-5 flex flex-col gap-3"
+           >
+             <img class="w-10" src="./Assets/icon.png" alt="" />
+             <h1 class="font-medium text-lg">UX / UI Design</h1>
+             <p class="text-gray-400">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+               quis?
+             </p>
+             <a class="text-gray-600 font-semibold text-sm" href="#">Read More</a>
+           </div>
+              <!-- card -->
+          <div
+          class="w-full md:w-4/12 shadow-xl rounded-lg my-3 md:my-10  p-5 flex flex-col gap-3"
+        >
+          <img class="w-10" src="./Assets/icon.png" alt="" />
+          <h1 class="font-medium text-lg">UX / UI Design</h1>
+          <p class="text-gray-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+            quis?
+          </p>
+          <a class="text-gray-600 font-semibold text-sm" href="#">Read More</a>
+        </div>
+           <!-- card -->
+           <div
+           class="w-full md:w-4/12 shadow-xl rounded-lg my-3 md:my-10  p-5 flex flex-col gap-3"
+         >
+           <img class="w-10" src="./Assets/icon.png" alt="" />
+           <h1 class="font-medium text-lg">UX / UI Design</h1>
+           <p class="text-gray-400">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+             quis?
+           </p>
+           <a class="text-gray-600 font-semibold text-sm" href="#">Read More</a>
+         </div>
+            <!-- card -->
+            <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg my-3 md:my-10  p-5 flex flex-col gap-3"
+          >
+            <img class="w-10" src="./Assets/icon.png" alt="" />
+            <h1 class="font-medium text-lg">UX / UI Design</h1>
+            <p class="text-gray-400">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+              quis?
+            </p>
+            <a class="text-gray-600 font-semibold text-sm" href="#">Read More</a>
+          </div>
+             <!-- card -->
+             <div
+             class="w-full md:w-4/12 shadow-xl rounded-lg my-3 md:my-10  p-5 flex flex-col gap-3"
+           >
+             <img class="w-10" src="./Assets/icon.png" alt="" />
+             <h1 class="font-medium text-lg">UX / UI Design</h1>
+             <p class="text-gray-400">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+               quis?
+             </p>
+             <a class="text-gray-600 font-semibold text-sm" href="#">Read More</a>
+           </div>
+        </div>
+      </div>
+    </div>
+<!-- MY work -->
+<div class="py-40" id="work">
+  <div class="container mx-auto">
+    <div class="flex flex-col gap-3 items-center">
+      <h1 class="text-gray-600 font-bold">PORTFOLIO</h1>
+      <h1 class="text-3xl font-medium">Previous Projects</h1>
+      <p class="text-gray-400 text-center w-1/2">
+        As a passionate web developer and designer, I thrive on creating
+        immersive online experiences that captivate and engage users. With a
+        keen eye for detail and a dedication 
+      </p>
+    </div>
+    <!-- bottom -->
+    <div class="p-5 sm:p-0 flex flex-wrap justify-between ">
+     <!-- card -->
+      <div
+        class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1"
+      >
+       <img src="./Assets/icon.png" alt="">
+      </div>
+          <!-- card -->
+          <div
+          class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1"
+        >
+         <img src="./Assets/icon.png" alt="">
+        </div>    <!-- card -->
+        <div
+          class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1"
+        >
+         <img src="./Assets/icon.png" alt="">
+        </div>    <!-- card -->
+        <div
+          class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1"
+        >
+         <img src="./Assets/icon.png" alt="">
+        </div>    <!-- card -->
+        <div
+          class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1"
+        >
+         <img src="./Assets/icon.png" alt="">
+        </div>    <!-- card -->
+        <div
+          class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1"
+        >
+         <img src="./Assets/icon.png" alt="">
+        </div>    <!-- card -->
+        <div
+          class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1"
+        >
+         <img src="./Assets/icon.png" alt="">
+        </div>    <!-- card -->
+        <div
+          class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1"
+        >
+         <img src="./Assets/icon.png" alt="">
+        </div>
+   
+    </div>
+  </div>
+</div>
+<!-- --- -->
+<!-- Contact -->
+<div id="contact">
+  <div class="container mx-auto">
+    <div class="flex flex-col gap-3 items-center">
+      <h1 class="text-gray-600 font-bold">CONTACT</h1>
+      <h1 class="text-3xl font-medium">HAve a Question?</h1>
+      <p class="text-gray-400 text-center w-1/2">
+        As a passionate web developer and designer, I thrive on creating
+        immersive online experiences that captivate and engage users. With a
+        keen eye for detail and a dedication 
+      </p>
+    </div>
+  </div>
+  <form class="mt-5 p-8 flex flex-col gap-6 items-center" >
+    <input class="p-2 w-full md:w-1/2 ring-1 ring-gray-500 rounded-sm" type="text" placeholder="Name Surname">
+    <input class="p-2 w-full md:w-1/2 ring-1 ring-gray-500 rounded-sm" type="email" placeholder="E-mail">
+    <textarea class="p-2 w-full md:w-1/2 ring-1 ring-gray-500 rounded-sm" cols="30" rows="10" placeholder="Message....."></textarea>
+    <button class="w-1/2 md:w-1/4 bg-gray-600 text-white font-medium px-3 py-2 rounded-md cursor-pointer">Submit</button>
+  </form>
+</div>
+<footer>
+  <div class="w-full bg-gray-300 z-10 ">
+    <div class="container mx-auto py-5 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <img class="w-12" src="./Assets/icon.png" alt="" />
+        
+      </div>
+   
+      <span class="tet-2xl font-semibold text-grey-800 pr-5">&copy; Design by <b>Hussain Zaidi</b></span>
+   
+    </div>
+  </div>
+</footer>
+  </body>
+</html>
